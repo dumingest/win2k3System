@@ -1,6 +1,6 @@
 :: author:   duming@snda.com
 :: create:   2011-2-21
-:: modified: 2011-2-21
+:: modified: 2011-2-23
 
 ::Create TEMP Directory
 
@@ -8,16 +8,16 @@ md C:\tmp
 
 ::Setup DNS Server
 
-netsh interface ip add dns name="本地连接" 222.73.13.68 index=1
-netsh interface ip add dns name="本地连接" 58.215.44.20 index=2
-netsh interface ip add dns name="本地连接 2" 222.73.13.68 index=1
-netsh interface ip add dns name="本地连接 2" 58.215.44.20 index=2
-netsh interface ip add dns name="本地连接 3" 222.73.13.68 index=1
-netsh interface ip add dns name="本地连接 3" 58.215.44.20 index=2
-netsh interface ip add dns name="本地连接 4" 222.73.13.68 index=1
-netsh interface ip add dns name="本地连接 4" 58.215.44.20 index=2
-netsh interface ip add dns name="本地连接 5" 222.73.13.68 index=1
-netsh interface ip add dns name="本地连接 5" 58.215.44.20 index=2
+netsh interface ip add dns name="鏈湴杩炴帴" 222.73.##.## index=1
+netsh interface ip add dns name="鏈湴杩炴帴" 58.215.##.## index=2
+netsh interface ip add dns name="鏈湴杩炴帴 2" 222.73.##.## index=1
+netsh interface ip add dns name="鏈湴杩炴帴 2" 58.215.##.## index=2
+netsh interface ip add dns name="鏈湴杩炴帴 3" 222.73.##.## index=1
+netsh interface ip add dns name="鏈湴杩炴帴 3" 58.215.##.## index=2
+netsh interface ip add dns name="鏈湴杩炴帴 4" 222.73.##.## index=1
+netsh interface ip add dns name="鏈湴杩炴帴 4" 58.215.##.## index=2
+netsh interface ip add dns name="鏈湴杩炴帴 5" 222.73.##.## index=1
+netsh interface ip add dns name="鏈湴杩炴帴 5" 58.215.##.## index=2
 
 ::Install SNMP&IIS
 
@@ -41,7 +41,7 @@ sysocmgr.exe /i:%windir%\inf\sysoc.inf /r /u:C:\tmp\iis.txt
 ::Setup NTP Client
 
 echo HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers>C:\tmp\ntp.txt
-echo 1= 61.172.254.29>>C:\tmp\ntp.txt
+echo 1= 61.172.###.##>>C:\tmp\ntp.txt
 regini C:\tmp\ntp.txt
 net stop w32Time
 net start w32Time
@@ -98,9 +98,9 @@ regini C:\tmp\vm.txt
 software\winrar\wrar-32x-393.exe -s
 "%PROGRAMFILES%\winrar\rar.exe" x -y software\cygwin\cygwin.rar C:\
 "%PROGRAMFILES%\winrar\rar.exe" x -y software\TotalCMD\TotalCMD.rar D:\
-copy C:\Cygwin\cygwin.lnk "%USERPROFILE%\桌面"
-copy D:\TotalCMD\TotalCMD.lnk "%USERPROFILE%\桌面"
-copy service\服务.lnk "%USERPROFILE%\桌面"
+copy C:\Cygwin\cygwin.lnk "%USERPROFILE%\妗岄潰"
+copy D:\TotalCMD\TotalCMD.lnk "%USERPROFILE%\妗岄潰"
+copy service\鏈嶅姟.lnk "%USERPROFILE%\妗岄潰"
 
 ::Create Directory
 
