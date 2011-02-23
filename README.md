@@ -21,14 +21,14 @@
 
     1. 创建目录结构（BAT实现）
 
-        D:\tools
-        D:\winapplogs
-        D:\websiteslogs
-        D:\components\log
-        D:\websites\*.sdo.com
-        D:\webapplog
-        D:\iislog
-        D:\httperr
+         D:\tools
+         D:\winapplogs
+         D:\websiteslogs
+         D:\components\log
+         D:\websites\*.sdo.com
+         D:\webapplog
+         D:\iislog
+         D:\httperr
 
 3. 界面优化
 
@@ -70,19 +70,19 @@
 
     3. 禁用服务（BAT实现）
 
-    Wuauserv 服务名称：Automatic Updates自动更新服务
-    Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
-    Browser 服务名称：Computer Browser (计算机浏览器) 看网上邻居的服务
-    Messenger 服务名称：Messenger 信使服务
-    Spooler 服务名称：Print Spooler 打印服务
-    RemoteRegistry 服务名称：Remote Registry 远程修改注册表
-    LmHosts 服务名称：TCP/IP NetBIOS Helper 提供对netbios的支持
-    WZCSVC 服务名称：Wireless Zero Configuration 无线配置服务
-    W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
+         Wuauserv 服务名称：Automatic Updates自动更新服务
+         Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
+         Browser 服务名称：Computer Browser (计算机浏览器) 看网上邻居的服务
+         Messenger 服务名称：Messenger 信使服务
+         Spooler 服务名称：Print Spooler 打印服务
+         RemoteRegistry 服务名称：Remote Registry 远程修改注册表
+         LmHosts 服务名称：TCP/IP NetBIOS Helper 提供对netbios的支持
+         WZCSVC 服务名称：Wireless Zero Configuration 无线配置服务
+         W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 
     4. 停止服务（BAT实现）
 
-    W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
+         W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 
     5. NTP Client->指定IP
 
