@@ -1,0 +1,62 @@
+WINDOWS 2003 系统盘制作
+
+功能需求方
+机房前期
+设置IPsec
+安装PCanywhere
+安装Windows Hotfix
+安装Octopod Agent
+
+运维前期
+3.1磁盘管理
+创建分区->磁盘0剩余全部空间创建逻辑磁盘并格式化
+设置盘符->新建逻辑磁盘设置为D盘，光驱设为H盘
+3.2目录管理
+创建目录结构
+D:\tools
+D:\winapplogs
+D:\websiteslogs
+D:\components\log
+D:\websites\*.sdo.com
+D:\webapplog
+D:\iislog
+D:\httperr
+4.1界面优化
+菜单->经典样式
+主题->经典样式
+桌面->800*600
+4.2性能稳定优化
+自动更新->关闭
+视觉效果->调整为最佳性能
+虚拟内存->D: 2048 - 4096
+数据执行保护->只为关键Windows程序和服务启用数据执行保护
+远程桌面->内网开启/外网关闭
+5.1网络设置
+网卡名称->将IP地址设为网卡对应名称
+网卡使用情况->禁用未使用的网卡
+Microsoft网络客户端->内网开启/外网关闭
+5.2协议设置Total Command
+DNS服务器->设置2组DNS服务器
+NetBIOS->内网开启/外网关闭
+6.1安装软件
+WinRAR
+C:\Cygwin
+D:\TotalCmd
+快捷方式->cygwin、TotalCMD、服务快捷方式到桌面
+7.1系统服务安装设置
+安装组件->SNMP、IIS
+禁用服务
+Wuauserv 服务名称：Automatic Updates自动更新服务
+Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
+Browser 服务名称：Computer Browser (计算机浏览器) 看网上邻居的服务
+Messenger 服务名称：Messenger 信使服务
+Spooler 服务名称：Print Spooler 打印服务
+RemoteRegistry 服务名称：Remote Registry 远程修改注册表
+LmHosts 服务名称：TCP/IP NetBIOS Helper 提供对netbios的支持
+WZCSVC 服务名称：Wireless Zero Configuration 无线配置服务
+W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
+停止服务
+W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
+功能需求分为两方面实现
+nLite的优化设置
+bat批处理脚本
