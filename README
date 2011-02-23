@@ -28,19 +28,19 @@ D:\httperr
 4.1界面优化
 菜单->经典样式（nLite实现）
 主题->经典样式（nLite实现）
-桌面->800*600（nLite实现）
+桌面->800x600（nLite实现）
 4.2性能稳定优化
 自动更新->关闭（nLite实现）
 视觉效果->调整为最佳性能（nLite实现）
 虚拟内存->D: 2048 - 4096（BAT实现）
-数据执行保护->只为关键Windows程序和服务启用数据执行保护（BAT实现）
+数据执行保护->只为关键Windows程序和服务启用数据执行保护（nLite实现）
 远程桌面->内网开启/外网关闭
 5.1网络设置
 网卡名称->将IP地址设为网卡对应名称
 网卡使用情况->禁用未使用的网卡
 Microsoft网络客户端->内网开启/外网关闭
 5.2协议设置
-DNS服务器->设置2组DNS服务器（BAT实现）
+DNS服务器->指定2组DNS IP（BAT实现）
 NetBIOS->内网开启/外网关闭
 6.1安装软件
 WinRAR（BAT实现）
@@ -49,6 +49,7 @@ D:\TotalCmd（BAT实现）
 快捷方式->cygwin、TotalCMD、服务快捷方式到桌面（BAT实现）
 7.1系统服务安装设置
 安装组件->SNMP、IIS（BAT实现）
+安装Framework3.5SP1（BAT实现）
 禁用服务（BAT实现）
 Wuauserv 服务名称：Automatic Updates自动更新服务
 Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
@@ -61,4 +62,51 @@ WZCSVC 服务名称：Wireless Zero Configuration 无线配置服务
 W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 停止服务（BAT实现）
 W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
+NTP Client->指定IP
 ===========================================================
+nLite设置
+1Service Pack
+默认（当前WIN2003盘已集成SP2）
+2系统补丁及程序整合
+默认（考虑到后续更新，继续用BAT增加）
+3驱动程序
+默认（建议集成驱动，尽量集成网卡驱动）
+4组件
+默认（考虑到稳定性，未删减任何组件）
+5无人值守安装
+常规：变动部分
+OEM预安装->禁用
+数据执行模式->Optin
+CD-KEY->WINDOWS序列号
+RunOnce：首次启动时执行命令
+%SOURCE%\Prophase\prophase.bat
+用户：
+登录次数->1
+密码->设定
+所有者和网络ID
+计算机名称->SNDA-SERVER
+工作组->WORKGROUP
+完整名称->SNDA-SERVER
+单位->SNDA
+区域：
+语言->Chinese （RPC）
+位置->Chinese （RPC）
+键盘布局->China
+时区->（GMT+08:00）北京、重庆、香港特别行政区、乌鲁木齐
+语言组->Simplifed Chinese
+网络设置：
+默认
+桌面主题：
+指定默认主题->Windows 经典主题
+经典开始菜单->Yes
+自动更新：
+自动更新->禁用
+显示：
+屏幕分辨率->800x600
+组件：
+默认
+6选项
+默认
+7优化调整
+视觉效果：禁用绝大部分
+网络：包含远程桌面（未开启）
