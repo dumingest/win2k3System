@@ -1,31 +1,35 @@
-WINDOWS 2003 系统盘制作
+## WINDOWS 2003 系统盘制作
 
-需求实现方式
-nLite制作光盘内嵌设置
-首次登陆时BAT脚本
+### 需求实现方式
+#### nLite制作光盘内嵌设置
+#### 首次登陆时BAT脚本
 
-功能需求方
-机房前期需求
-设置IPsec（BAT实现）
-安装PCanywhere（BAT实现）
-安装Windows Hotfix（BAT实现）
-安装Octopod Agent（BAT实现）
+### 功能需求方
+#### 机房前期需求
+2. 设置IPsec（BAT实现）
+3. 安装PCanywhere（BAT实现）
+4. 安装Windows Hotfix（BAT实现）
+5. 安装Octopod Agent（BAT实现）
 
+#### 运维前期需求
 
-运维前期需求
-3.1磁盘管理
-创建分区->磁盘0剩余全部空间创建逻辑磁盘并格式化（BAT实现）
-设置盘符->新建逻辑磁盘设置为D盘，光驱设为H盘（BAT实现）
-3.2目录管理
+1. 磁盘管理
+    1. 创建分区->磁盘0剩余全部空间创建逻辑磁盘并格式化（BAT实现） 
+    2. 设置盘符->新建逻辑磁盘设置为D盘，光驱设为H盘（BAT实现）
+
+2. 目录管理
+
 创建目录结构（BAT实现）
-D:\tools
-D:\winapplogs
-D:\websiteslogs
-D:\components\log
-D:\websites\*.sdo.com
-D:\webapplog
-D:\iislog
-D:\httperr
+
+    D:\tools
+    D:\winapplogs
+    D:\websiteslogs
+    D:\components\log
+    D:\websites\*.sdo.com
+    D:\webapplog
+    D:\iislog
+    D:\httperr
+
 4.1界面优化
 菜单->经典样式（nLite实现）
 主题->经典样式（nLite实现）
