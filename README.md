@@ -21,8 +21,8 @@
 2. 目录管理
 
     1. 创建目录结构（BAT实现）
-
-    D:\tools
+    
+        D:\tools
         D:\winapplogs
         D:\websiteslogs
         D:\components\log
