@@ -21,14 +21,14 @@
 
     1. 创建目录结构（BAT实现）
 
-    D:\tools
-    D:\winapplogs
-    D:\websiteslogs
-    D:\components\log
-    D:\websites\*.sdo.com
-    D:\webapplog
-    D:\iislog
-    D:\httperr
+        D:\tools
+        D:\winapplogs
+        D:\websiteslogs
+        D:\components\log
+        D:\websites\*.sdo.com
+        D:\webapplog
+        D:\iislog
+        D:\httperr
 
 3. 界面优化
 
