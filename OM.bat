@@ -98,6 +98,7 @@ regini C:\tmp\vm.txt
 software\winrar\wrar-32x-393.exe -s
 "%PROGRAMFILES%\winrar\rar.exe" x -y software\cygwin\cygwin.rar C:\
 "%PROGRAMFILES%\winrar\rar.exe" x -y software\TotalCMD\TotalCMD.rar D:\
+C:\cygwin\bin\bash --login -i  -rcfile "sh /cygdrive/c/cygwin/etc/postinstall/cygwin-sdo.sh"
 copy C:\Cygwin\cygwin.lnk "%USERPROFILE%\桌面"
 copy D:\TotalCMD\TotalCMD.lnk "%USERPROFILE%\桌面"
 copy service\服务.lnk "%USERPROFILE%\桌面"
