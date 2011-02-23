@@ -6,6 +6,7 @@
 
 ### 功能需求方
 #### 机房前期需求
+
 1. 设置IPsec（BAT实现）
 2. 安装PCanywhere（BAT实现）
 3. 安装Windows Hotfix（BAT实现）
@@ -25,10 +26,10 @@
     D:\winapplogs
     D:\websiteslogs
     D:\components\log
-        D:\websites\*.sdo.com
-        D:\webapplog
-        D:\iislog
-        D:\httperr
+    D:\websites\*.sdo.com
+    D:\webapplog
+    D:\iislog
+    D:\httperr
 
 3. 界面优化
 
