@@ -21,10 +21,10 @@
 
     1. 创建目录结构（BAT实现）
 
-        D:\tools
-        D:\winapplogs
-        D:\websiteslogs
-        D:\components\log
+    D:\tools
+    D:\winapplogs
+    D:\websiteslogs
+    D:\components\log
         D:\websites\*.sdo.com
         D:\webapplog
         D:\iislog
