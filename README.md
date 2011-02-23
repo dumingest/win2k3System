@@ -19,7 +19,7 @@
 
 2. 目录管理
 
-创建目录结构（BAT实现）
+    1. 创建目录结构（BAT实现）
 
     D:\tools
     D:\winapplogs
@@ -61,7 +61,7 @@
     2. C:\Cygwin（BAT实现）
     3. D:\TotalCmd（BAT实现）
 
-快捷方式->cygwin、TotalCMD、服务快捷方式到桌面（BAT实现）
+    快捷方式->cygwin、TotalCMD、服务快捷方式到桌面（BAT实现）
 
 8. 系统服务安装设置
 
@@ -69,6 +69,7 @@
     2. 安装Framework3.5SP1（BAT实现）
 
     3. 禁用服务（BAT实现）
+
     Wuauserv 服务名称：Automatic Updates自动更新服务
     Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
     Browser 服务名称：Computer Browser (计算机浏览器) 看网上邻居的服务
