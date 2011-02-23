@@ -6,10 +6,10 @@
 
 ### 功能需求方
 #### 机房前期需求
-2. 设置IPsec（BAT实现）
-3. 安装PCanywhere（BAT实现）
-4. 安装Windows Hotfix（BAT实现）
-5. 安装Octopod Agent（BAT实现）
+1. 设置IPsec（BAT实现）
+2. 安装PCanywhere（BAT实现）
+3. 安装Windows Hotfix（BAT实现）
+4. 安装Octopod Agent（BAT实现）
 
 #### 运维前期需求
 
@@ -30,29 +30,29 @@
     D:\iislog
     D:\httperr
 
-4.1界面优化
+3. 界面优化
 菜单->经典样式（nLite实现）
 主题->经典样式（nLite实现）
 桌面->800x600（nLite实现）
-4.2性能稳定优化
+4. 性能稳定优化
 自动更新->关闭（nLite实现）
 视觉效果->调整为最佳性能（nLite实现）
 虚拟内存->D: 2048 - 4096（BAT实现）
 数据执行保护->只为关键Windows程序和服务启用数据执行保护（nLite实现）
 远程桌面->内网开启/外网关闭
-5.1网络设置
+5. 网络设置
 网卡名称->将IP地址设为网卡对应名称
 网卡使用情况->禁用未使用的网卡
 Microsoft网络客户端->内网开启/外网关闭
 5.2协议设置
 DNS服务器->指定2组DNS IP（BAT实现）
 NetBIOS->内网开启/外网关闭
-6.1安装软件
+6. 安装软件
 WinRAR（BAT实现）
 C:\Cygwin（BAT实现）
 D:\TotalCmd（BAT实现）
 快捷方式->cygwin、TotalCMD、服务快捷方式到桌面（BAT实现）
-7.1系统服务安装设置
+7. 系统服务安装设置
 安装组件->SNMP、IIS（BAT实现）
 安装Framework3.5SP1（BAT实现）
 禁用服务（BAT实现）
@@ -69,6 +69,6 @@ W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 NTP Client->指定IP
 
-具体操作方式可见文档
-nLite信息可见nLite、LAST SESSION.ini、LAST SESSION_U.ini
-BAT信息可见OM.bat
+### 具体操作方式可见文档
+#### nLite信息可见nLite、LAST SESSION.ini、LAST SESSION_U.ini
+#### BAT信息可见OM.bat
