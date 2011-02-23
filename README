@@ -65,3 +65,6 @@ W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 NTP Client->指定IP
 
+具体操作方式可见文档
+nLite信息可见nLite、LAST SESSION.ini、LAST SESSION_U.ini
+BAT信息可见OM.bat
