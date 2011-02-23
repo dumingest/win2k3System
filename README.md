@@ -21,7 +21,7 @@
 
     1. 创建目录结构（BAT实现）
 
-    D:\tools
+        D:\tools
         D:\winapplogs
         D:\websiteslogs
         D:\components\log
@@ -70,7 +70,7 @@
 
     3. 禁用服务（BAT实现）
 
-    Wuauserv 服务名称：Automatic Updates自动更新服务
+        Wuauserv 服务名称：Automatic Updates自动更新服务
         Dhcp 服务名称：DHCP Client 自动分配IP地址的服务
         Browser 服务名称：Computer Browser (计算机浏览器) 看网上邻居的服务
         Messenger 服务名称：Messenger 信使服务
