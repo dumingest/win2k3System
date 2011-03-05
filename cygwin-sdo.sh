@@ -1,7 +1,7 @@
 #!/bin/sh
-# author:   yanglei@snda.com
+# author:   yanglei@snda.com,duming@snda.com
 # create:   2010-11-21
-# modified: 2011-1-30
+# modified: 2011-03-03
 
 # set directory authority
 chmod -R 755 /cygdrive/c/cygwin/
