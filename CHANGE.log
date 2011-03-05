@@ -44,3 +44,7 @@ W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 4）停止服务（BAT实现）
 W3SVC 服务名称：World Wide Web Publishing Service 万维网服务IIS
 5）NTP Client->指定IP（BAT实现）
+8.修改IDC配置批处理文件patch.bat
+1）注释掉WIN2003SP2补丁安装，安装盘默认已是SP2
+2）自动添加octopod client 的Capistrano和webistrano公钥
+3）注释掉重启脚本tools\rb.vbs，所有前期在首次登陆时自动完成，但后续需要人为设置IP（设置后需要重启），故不重复重启
